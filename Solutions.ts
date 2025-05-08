@@ -73,7 +73,3 @@ async function squareAsync(n: number): Promise<number> {
   });
 }
 
-// Test cases
-formatString("Hello"); // Output: "HELLO"
-formatString("Hello", true); // Output: "HELLO"
-formatString("Hello", false); // Output: "hello"
